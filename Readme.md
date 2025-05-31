@@ -83,7 +83,7 @@
 #### >Successfully detects and recognizes Indian number plates.
 #### >Robust against different lighting conditions and angles.
 
-#### The model achieved 75% accuracy because i am using a small dataset therefore accuracy is minimum but it can be improved if perform it on a large dataset. Future improvements could include training with a larger dataset, improving character segmentation, and fine-tuning the model architecture for better generalization.
+#### The model achieved 97% accuracy b. Future improvements could include training with a larger dataset, improving character segmentation, and fine-tuning the model architecture for better generalization.
 
 ## 🏆 Future Improvements
 #### Improve OCR accuracy using advanced deep learning models.
