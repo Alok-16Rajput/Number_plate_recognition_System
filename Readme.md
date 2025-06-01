@@ -37,35 +37,35 @@ The dataset used to train the Number Plate Recognition System comprises individu
 '''
 
 ---
-## 🔄 Workflow
-### 1.Load Image & Preprocess
+# 🔄 Workflow
+## 1.Load Image & Preprocess
 
-#### >Read the image using OpenCV.
-#### >Convert it to grayscale.
-#### >Apply Haar Cascade to detect the number plate.
-#### >Crop and preprocess the detected plate.
+- **Read the image using OpenCV.**
+- **Convert it to grayscale.**
+- **Apply Haar Cascade to detect the number plate.**
+- **Crop and preprocess the detected plate.**
 
 ## 2.Character Segmentation
 
-#### >Apply thresholding, erosion, and dilation to clean the image.
-#### >Find contours of characters.
-#### >Extract individual character images.
+- **Apply thresholding, erosion, and dilation to clean the image.**
+- **Find contours of characters.**
+- **Extract individual character images.**
 
 ## 3.Character Recognition
 
 #### >Resize characters to 28x28.
-#### >Feed them into a trained CNN model.
-#### >Predict and decode the characters into a readable format.
+- **Feed them into a trained CNN model.**
+- **Predict and decode the characters into a readable format.**
 
 ## 4.Model Training
 
-#### >Uses categorical cross-entropy loss and Adam optimizer.
-#### >Trained using ImageDataGenerator for data augmentation.
+- **Uses categorical cross-entropy loss and Adam optimizer.**
+- **Trained using ImageDataGenerator for data augmentation.**
 
 ## 5.Evaluation & Performance Metrics
 
-#### >Evaluate accuracy using a validation dataset.
-#### >Display confusion matrix and classification report.
+- **Evaluate accuracy using a validation dataset.**
+- **Display confusion matrix and classification report.**
 ---
 ## 🚀 How to Run
 
@@ -73,17 +73,16 @@ The dataset used to train the Number Plate Recognition System comprises individu
 '''bash
  git clone https://github.com/Shubham-Singla259/Number-Plate-Recognition-System.git
  cd Number-Plate-Recognition-System
- '''
+'''
 
 
 ## 2.Install dependencies:
-'''
+
  pip install -r requirements.txt
-'''
+
 ## 3.Run the code:
-'''bash
+
 python Number_plate_recognition.ipynb
-'''
 ---
 
 ## 📈 Result
@@ -101,14 +100,14 @@ The model achieved an accuracy of 97%. Future enhancements may include expanding
 ---
 
 ## 🏆 Future Uses and Applications
--  **1.Real-time Traffic Management:**Integration with live traffic surveillance systems to automatically detect and analyze vehicles. This can assist authorities in monitoring traffic flow, identifying violations, issuing fines, and tracking stolen vehicles in real time.
+-  **1.Real-time Traffic Management:** Integration with live traffic surveillance systems to automatically detect and analyze vehicles. This can assist authorities in monitoring traffic flow, identifying violations, issuing fines, and tracking stolen vehicles in real time.
 
-- **2.Parking Lot Management:**Deployment in parking facilities to automate vehicle entry and exit tracking, record timestamps, calculate parking fees, and detect unauthorized or blacklisted vehicles.
+- **2.Parking Lot Management:** Deployment in parking facilities to automate vehicle entry and exit tracking, record timestamps, calculate parking fees, and detect unauthorized or blacklisted vehicles.
 
-- **3.Toll Collection Systems:**Implementation in toll booth systems to recognize vehicle number plates for seamless, contactless toll collection. The system can automatically deduct fees from linked user accounts, improving efficiency and reducing congestion.
+- **3.Toll Collection Systems:** Implementation in toll booth systems to recognize vehicle number plates for seamless, contactless toll collection. The system can automatically deduct fees from linked user accounts, improving efficiency and reducing congestion.
 ---
 
-## contact
-**Email:** alok1602.kumar@gmail.com
+## 📞 contact
+📧 **Email:** alok1602.kumar@gmail.com
 
 
