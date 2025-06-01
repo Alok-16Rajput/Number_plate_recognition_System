@@ -71,8 +71,8 @@ The dataset used to train the Number Plate Recognition System comprises individu
 
 ### 1.Clone the repository:
 
- ## git clone 
- ## cd Number-Plate-Recognition-System
+ - **git clone 'https://github.com/Alok-16Rajput/Number_plate_recognition_System.git'**
+ - **cd Number-Plate-Recognition-System**
 
 
 
