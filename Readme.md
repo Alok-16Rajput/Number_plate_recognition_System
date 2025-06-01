@@ -71,8 +71,8 @@ The dataset used to train the Number Plate Recognition System comprises individu
 
 ### 1.Clone the repository:
 
- git clone https://github.com/Shubham-Singla259/Number-Plate-Recognition-System.git
- cd Number-Plate-Recognition-System
+ ## git clone https://github.com/Shubham-Singla259/Number-Plate-Recognition-System.git
+ ## cd Number-Plate-Recognition-System
 
 
 
@@ -90,7 +90,7 @@ python Number_plate_recognition.ipynb
 - **Successfully detects and recognizes Indian vehicle license plates in real-world scenarios.**
 - **Demonstrates robustness to varying lighting conditions and viewing angles.**
 
-**The model achieved an accuracy of 97%. Future enhancements may include expanding the training dataset, refining the character segmentation process, and optimizing the model architecture to improve generalization and overall performance.**
+- **The model achieved an accuracy of 97%. Future enhancements may include expanding the training dataset, refining the character segmentation process, and optimizing the model architecture to improve generalization and overall performance.**
 ---
 
 ## 🏆 Future Improvements
