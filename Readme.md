@@ -71,7 +71,7 @@ The dataset used to train the Number Plate Recognition System comprises individu
 
 ### 1.Clone the repository:
 
- ## git clone https://github.com/Shubham-Singla259/Number-Plate-Recognition-System.git
+ ## git clone 
  ## cd Number-Plate-Recognition-System
 
 
